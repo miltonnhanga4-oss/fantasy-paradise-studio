@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fantasy Paradise Studio</title>
+  <style>
+    body { margin:0; font-family:Arial, Helvetica, sans-serif; background:#0f0f14; color:#fff; }
+    header { background:linear-gradient(90deg,#6a00ff,#9b00ff); padding:20px; text-align:center; }
+    nav { display:flex; justify-content:center; gap:20px; background:#1a1a24; padding:10px; }
+    nav a { color:#fff; text-decoration:none; font-weight:bold; }
+    nav a:hover { color:#c77dff; }
+    .container { max-width:900px; margin:auto; padding:30px; }
+    .comic-card { background:#1c1c28; border-radius:10px; padding:20px; margin-bottom:25px; }
+    .comic-card h2 { color:#c77dff; }
+    .chapter { margin:10px 0; }
+    .reader img { width:100%; margin-bottom:20px; border-radius:8px; }
+    .comments { background:#1a1a24; padding:20px; border-radius:10px; margin-top:40px; }
+    .comments textarea { width:100%; height:80px; border-radius:5px; border:none; padding:10px; }
+    .comments button { margin-top:10px; padding:10px 20px; background:#6a00ff; border:none; color:#fff; border-radius:5px; cursor:pointer; }
+    footer { background:#1a1a24; text-align:center; padding:20px; color:#aaa; margin-top:40px; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Fantasy Paradise Studio</h1>
+  <p>Quadrinhos originais em formato digital</p>
+</header>
+<nav>
+  <a href="#home">Início</a>
+  <a href="#ghost">Ghost</a>
+  <a href="#vortex">Vortex</a>
+</nav>
+
+<div class="container" id="home">
+  <div class="comic-card">
+    <h2>Ghost</h2>
+    <p>Uma cidade afogada em sombras. Um vigilante nasce do medo.</p>
+    <div class="chapter"><a href="#ghost-cap1">Capítulo 1</a></div>
+    <div class="chapter"><a href="#ghost-cap2">Capítulo 2</a></div>
+  </div>
+
+  <div class="comic-card">
+    <h2>Vortex</h2>
+    <p>Um poder capaz de rasgar o céu. Um destino instável.</p>
+    <div class="chapter"><a href="#vortex-cap1">Capítulo 1</a></div>
+  </div>
+</div>
+
+<div class="container reader" id="ghost-cap1">
+  <h2>Ghost – Capítulo 1</h2>
+  <!-- Substitua pelas imagens da HQ -->
+  <img src="pagina1.jpg" alt="Página 1" />
+  <img src="pagina2.jpg" alt="Página 2" />
+
+  <div class="comments">
+    <h3>Comentários</h3>
+    <textarea placeholder="Escreva seu comentário..."></textarea>
+    <button>Enviar</button>
+    <p>* Sistema simples (local). Para algo avançado, usar backend.</p>
+  </div>
+</div>
+
+<footer>
+  © 2026 – Fantasy Paradise Studio
+</footer>
+</body>
+</html>
